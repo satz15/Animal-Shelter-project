@@ -1,0 +1,115 @@
+/* :root {
+    --clr-text-only: #e1533c;
+    --clr-hover-color: #736f6d;
+    --clr-brussian-blue: #023047ff;
+    --clr-selective-yellow: #ffb703ff;
+    --clr-ut-orange: #fb8500ff;
+    --light-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.first-tab {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+
+}
+
+.logo {
+    padding-left: 30rem;
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.one {
+    font-size: 1.5rem;
+    color: orangered;
+}
+
+
+.list-one {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 20rem;
+    color: orangered;
+    cursor: pointer;
+}
+
+.second-tab{
+    width: 100vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+/* .img-content{
+    justify-content: space-between;
+} */
+
+.dot-one{
+    color: orangered;
+}
+.dot-two{
+    color: orangered;
+}
+.line-one{
+    font-size: 4.5rem;
+    font-family: "Anton", sans-serif;
+    font-stretch:extra-condensed;
+}
+.line-two{
+    font-size: 3rem;
+}
+.dot-three{
+    color: orangered;
+}
+.dot-four{
+    color: orangered;
+}
+.icon{
+  background-color: orangered;
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  font-size: 4rem;
+  padding-inline: 1.5rem;
+  border-radius: 2.5rem;
+}
+.dot-five{
+    color: orangered;
+}
+.dot-six{
+    color: orangered;
+}
