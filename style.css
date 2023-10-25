@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"); */
 
 body {
     height: 100vh;
@@ -43,6 +43,10 @@ span {
 .one {
     font-size: 1.5rem;
     color: orangered;
+    display: flex;
+    flex-direction: column;
+    width: 1rem;
+    gap: .5rem;
 }
 
 
@@ -58,18 +62,26 @@ span {
 }
 
 .second-tab{
-    width: 90vw;
-    height: 50vh;
+    width: 100vw;
+    height: auto;
     display: flex;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     flex-direction: row;
+    
 }
 .img-content{
-    /* display: flex; */
-    justify-content: space-around;
+    display:grid;
+    gap: 2rem;
+}
+.cat-one{
+    cursor: pointer;
+}
+.icon-sec{
+    display: flex;
+    justify-content: space-between;
 }
 
 .dot-one{
@@ -94,12 +106,21 @@ span {
 }
 .icon{
   background-color: orangered;
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   color: white;
   font-size: 4rem;
   padding-inline: 1.5rem;
-  border-radius: 2.5rem;
+  border-radius: 3.5rem;
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.second-dot{
+    padding: 1rem;
+}
+.third-dot{
+    padding: 1rem;
 }
 .dot-five{
     color: orangered;
@@ -109,11 +130,238 @@ span {
 }
 
 .third-tab{
-    width:100vh;
-    height: 80vh;
+    width:100vw;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 209, 196);
+    gap: 5rem;
 }
+h1{
+    color: orangered;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30vw;
+    border-right: 2px dotted orangered ;
+    padding-right: 3rem;
+    
+}
+.dot-section{
+    display: flex;
+    flex-direction: column;
+    /* width: 2vw; */
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 30vw; 
+}
+.dog-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    width: 30vw; 
+    padding: 2rem;
+}
+.dog-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.dog-img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 4rem;
+}
+.cat-sec{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+}
+.cat-img{
+    height: 7rem;
+    width: 7rem;  
+    border-radius: 4rem;
+}
+h2{
+    color: orangered;
+}
+
+.img-tab{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(219, 209, 196) ;
+}
+.dog-slider{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    gap: 1rem;
+}
+.cat-slider{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    gap:1rem;
+   padding-top: 2rem;
+}
+.img-one{
+   border: 7px solid white;
+   width: 10vw;
+   height: 8vw;
+}
+.img-two{
+    border: 7px solid white;
+    width: 10vw;
+    height: 8vw;
+ }
+ .img-three{
+    border: 7px solid white;
+    width: 10vw;
+    height: 8vw;
+ }
+ .img-four{
+    border: 7px solid white;
+    width: 10vw;
+    height: 8vw;
+ }
+ .img-five{
+    border: 7px solid white;
+    width: 10vw;
+    height: 8vw;
+ }
+ .img-six{
+    border: 7px solid white;
+    width: 10vw;
+    height:8vw;
+ }
+
+ .final-content{
+    background-color: rgb(219, 209, 196) ;
+    /* display: flex; */
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+ }
+ .dot-two{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+ }
+ .contents{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .title{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+ }
+ .ad-dogs{
+    color: orangered;
+    font-size: 1.7rem;
+    position: relative;
+    right:2rem;
+ }
+ .ad-cats{
+    color: orangered;
+    font-size: 1.7rem;
+    position: relative;
+    right: 23rem;
+ }
+ .right-content{
+    width: 40rem;
+ }
+ h4{
+    color: orangered;
+    font-size: 1.7rem;
+ }
+ .e-one{
+    color: orangered;
+    font-weight: 600;
+ }
+ .e-two{
+    color: orangered;
+    font-weight: 600;
+ }
+
+ .ticket-img{
+    width: 28vw;
+    height: 10vw;
+    height: auto;
+    position: relative;
+ }
+ .left{
+    bottom:8rem;
+    left: 5rem;
+    position: relative;
+    display: grid;
+    gap: 2rem;
+ }
+
+ .dollar{
+    color: orangered;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: -30px;
+ }
+ .doll{
+    margin-bottom: -20px;
+ }
+ .mon{
+    color: orangered;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: -1.5rem;
+ }
+
+ .right{
+    bottom:8rem;
+    left: 15rem;
+    position: relative;
+    display: grid;
+    margin-top: -110px;
+ }
+ .head{
+    color: orangered;
+    width: 12rem;
+    font-size: 1.2rem;
+ }
+.para{
+    width: 16rem;
+}
+ .last{
+    /* display: flex; */
+    /* flex-direction: row; */
+    background-color: orangered;
+ }
+
+ ul{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    list-style: none;
+    justify-content: space-evenly;
+ }
+
+ .app{
+    color: white;
+ }
+
+
